@@ -1,0 +1,7 @@
+webpack(import/export)
+    babel
+    scss
+    eslint
+    dev mode (dev server, source map, eslint)
+    prod mode ( minified code)
+git
