@@ -7,20 +7,20 @@
   right: 0;
   left: 0;
   height: $header-height;
-  padding: 8px 4px 0 ;
+  padding: 8px 4px 0;
   display: flex;
   justify-content: space-between;
-  // background: antiquewhite;
 
   & .input {
-    margin: 0%;
+    margin: 0;
     padding: 2px 7px;
-    color: black;
-    border: 1px, solid transparent;
+    min-width: 1px;
+    color: #000;
+    border: 1px solid transparent;
     border-radius: 2px;
     height: 20px;
     font-size: 18px;
-    line-height: 22;
+    line-height: 22px;
     outline: none;
 
     &:hover {
@@ -33,6 +33,7 @@
   }
 
   .button {
-    @include button(red)
+    @include button(red);
   }
+
 }
