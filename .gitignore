@@ -1,5 +1,5 @@
 .idea
 node_modules
+src/src-hand
 dist
 package-lock.json
-src-hand
